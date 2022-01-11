@@ -4,6 +4,19 @@ const socialhome = [
         autor: 'Phil Mangione',
         eta: '4 mesi fa',
         postimg: src="https://unsplash.it/600/300?image=171",
+    },
+    {
+        pic: src="https://i.picsum.photos/id/133/300/300.jpg?hmac=QNG5UogJb89EMr5ynHF9s2vYRUGx4EVNFu1gJ2cS5Yg",
+        autor: 'Joe Mama',
+        eta: '2 giorni fa',
+        postimg: src="https://i.picsum.photos/id/340/300/300.jpg?hmac=14W5SZd_fBT9ZqTxxdzAfXNAgy3aBn0e8_MtIpOAs3Y",
+    },
+    {
+        pic: src="https://i.picsum.photos/id/737/300/300.jpg?hmac=94eQ0-7BgWyrtUDzUZpTKyhkpATPLelT9Um_aq-q050",
+        autor: 'John Doe',
+        eta: '1 settimana fa',
+        postimg: src="https://i.picsum.photos/id/700/300/300.jpg?hmac=nAc9k92vOFl8i6K84MMZgC_uwyhaIydCz34BEY8O0Ps",
+
     }
 ]
 
