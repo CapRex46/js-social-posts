@@ -1,22 +1,48 @@
 const socialhome = [
-    {
+    {   
+        id: 1,
         pic: src="https://unsplash.it/300/300?image=15",
         autor: 'Phil Mangione',
         eta: '4 mesi fa',
         postimg: src="https://unsplash.it/600/300?image=171",
+        postlike: 80,
     },
     {
+        id: 2,
         pic: src="https://i.picsum.photos/id/133/300/300.jpg?hmac=QNG5UogJb89EMr5ynHF9s2vYRUGx4EVNFu1gJ2cS5Yg",
         autor: 'Joe Mama',
         eta: '2 giorni fa',
         postimg: src="https://i.picsum.photos/id/340/300/300.jpg?hmac=14W5SZd_fBT9ZqTxxdzAfXNAgy3aBn0e8_MtIpOAs3Y",
+        postlike: 120,
     },
     {
+        id: 3,
         pic: src="https://i.picsum.photos/id/737/300/300.jpg?hmac=94eQ0-7BgWyrtUDzUZpTKyhkpATPLelT9Um_aq-q050",
         autor: 'John Doe',
         eta: '1 settimana fa',
-        postimg: src="https://i.picsum.photos/id/700/300/300.jpg?hmac=nAc9k92vOFl8i6K84MMZgC_uwyhaIydCz34BEY8O0Ps",
-
+        postlike: 160,
+    },
+    {
+        id: 4,
+        pic: src="https://unsplash.it/300/300?image=15",
+        autor: 'Phil Mangione',
+        eta: '4 mesi fa', 
+        postimg: src="https://i.picsum.photos/id/282/300/300.jpg?hmac=0hD9MPJFGhh7JPyvYdwNJxeOqFl2Q41y71ZvtZ1ybJQ",
+        postlike: 180,
+    },
+    {
+        id: 5,
+        pic: src="https://i.picsum.photos/id/133/300/300.jpg?hmac=QNG5UogJb89EMr5ynHF9s2vYRUGx4EVNFu1gJ2cS5Yg",
+        autor: 'Joe Mama',
+        eta: '2 giorni fa',
+        postlike: 200,
+    },
+    {
+        id: 6,
+        pic: src="https://i.picsum.photos/id/737/300/300.jpg?hmac=94eQ0-7BgWyrtUDzUZpTKyhkpATPLelT9Um_aq-q050",
+        autor: 'John Doe',
+        eta: '1 settimana fa',
+        postlike: 220,
     }
 ]
 
@@ -48,12 +74,26 @@ for (let i = 0; i < socialhome.length; i++) {
             </a>
         </div>
         <div class="likes__counter">
-            Piace a <b id="like-counter-1" class="js-likes-counter">80</b> persone
+            Piace a <b class="js-likes-counter">${socialhome[i].postlike}</b> persone
         </div>
     </div> 
 </div>            `
 
 }
+
+const likeButtons = document.querySelectorAll('.js-like-counter')
+const likeCounters = document.querySelectorAll('.js-likes-counter')
+
+
+
+for (let i = 0; i < likeButtons.length; i++) {
+    const button = likeButtons[i];
+
+    button.addEventListener('click', function() {
+    })
+
+}
+
 
 
 
